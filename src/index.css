@@ -1,0 +1,52 @@
+:root {
+  font-family: var(--font-sans);
+  color: #30221a;
+  background: #fff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  --font-sans: Arial, Helvetica, sans-serif;
+  --font-serif: "Iowan Old Style", "Baskerville Old Face", Baskerville, Georgia, serif;
+  --espresso: #2c1e16;
+  --sand: #f4efea;
+  --gold: #d4af7a;
+  --blush: #e8dcd3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: #fff;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #a77a3c;
+  outline-offset: 3px;
+}
+
+img {
+  max-width: 100%;
+}
